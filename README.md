@@ -27,6 +27,15 @@ Using **Cohort Analysis**, **RFM Analysis**, and **K-Means Clustering**, the pro
 
 <br>
 
+## 🚀 Key Highlights
+
+- ✅ Built a **monthly retention matrix** that reveals how customer engagement decays over a customer's lifetime.
+- ✅ Ranked customers into **RFM segments** to distinguish loyal, high-value buyers from at-risk and lapsed ones.
+- ✅ Used **unsupervised ML** to automatically segment the customer base into **3 distinct groups**, enabling targeted marketing strategies.
+- ✅ Produced insights the business can act on — _which customers to focus on, and what offers will foster loyalty._
+
+<br>
+
 ## 🛠️ Tech Stack
 
 | Category             | Tools               |
@@ -39,43 +48,7 @@ Using **Cohort Analysis**, **RFM Analysis**, and **K-Means Clustering**, the pro
 
 <br>
 
-## 💡 Skills Demonstrated
-
-<table>
-<tr>
-<td>
-
-**📈 Data Analytics**
-
-- Cohort & retention analysis
-- RFM customer scoring
-- Descriptive & variance statistics
-
-</td>
-<td>
-
-**🤖 Machine Learning**
-
-- K-Means clustering
-- Elbow method for model selection
-- Feature scaling & log transformation
-
-</td>
-<td>
-
-**🧹 Data Engineering**
-
-- Cleaning & deduplication
-- Outlier & invalid-value handling
-- Feature engineering
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## 🔍 What This Project Does
+## 🔍 Features & Methodology
 
 The notebook walks through a complete analytics pipeline, from raw data to business insight:
 
@@ -101,12 +74,38 @@ Log-transforms and normalizes the RFM data, uses the **Elbow Method** to find th
 
 <br>
 
-## 🚀 Key Outcomes
+## 📂 Dataset
 
-- ✅ Built a **monthly retention matrix** that reveals how customer engagement decays over a customer's lifetime.
-- ✅ Ranked customers into **RFM segments** to distinguish loyal, high-value buyers from at-risk and lapsed ones.
-- ✅ Used **unsupervised ML** to automatically segment the customer base into **3 distinct groups**, enabling targeted marketing strategies.
-- ✅ Produced insights the business can act on — _which customers to focus on, and what offers will foster loyalty._
+| Attribute     | Description                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| `InvoiceNo`   | Unique 6-digit transaction number (a leading `c` indicates a cancellation) |
+| `StockCode`   | Unique 5-digit product code                                                |
+| `Description` | Product name                                                               |
+| `Quantity`    | Quantity of each product per transaction                                   |
+| `InvoiceDate` | Date and time the transaction was generated                                |
+| `UnitPrice`   | Product price per unit (in sterling)                                       |
+| `CustomerID`  | Unique 5-digit customer number                                             |
+| `Country`     | Country where the customer resides                                         |
+
+<br>
+
+## ⚙️ Getting Started
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/HarshTanwar1/Cohort_Analysis.git
+cd Cohort_Analysis
+
+# 2. (Recommended) Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate        # On Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+
+# 4. Launch the notebook
+jupyter notebook Cohort_Analysis.ipynb
+```
 
 <br>
 
@@ -130,45 +129,10 @@ Log-transforms and normalizes the RFM data, uses the **Elbow Method** to find th
 
 <br>
 
-## ⚙️ Installation & Run
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/HarshTanwar1/Cohort_Analysis.git
-cd Cohort_Analysis
-
-# 2. (Recommended) Create and activate a virtual environment
-python3 -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
-
-# 3. Install dependencies
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-
-# 4. Launch the notebook
-jupyter notebook Cohort_Analysis.ipynb
-```
-
-<br>
-
-## 📂 Dataset Reference
-
-| Attribute     | Description                                                                |
-| ------------- | -------------------------------------------------------------------------- |
-| `InvoiceNo`   | Unique 6-digit transaction number (a leading `c` indicates a cancellation) |
-| `StockCode`   | Unique 5-digit product code                                                |
-| `Description` | Product name                                                               |
-| `Quantity`    | Quantity of each product per transaction                                   |
-| `InvoiceDate` | Date and time the transaction was generated                                |
-| `UnitPrice`   | Product price per unit (in sterling)                                       |
-| `CustomerID`  | Unique 5-digit customer number                                             |
-| `Country`     | Country where the customer resides                                         |
-
-<br>
-
 ---
 
 <div align="center">
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ _If you found this project helpful or interesting, consider giving it a star!_ ⭐
 
 </div>
