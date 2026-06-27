@@ -38,7 +38,7 @@ Using **Cohort Analysis**, **RFM Analysis**, and **K-Means Clustering**, the pro
 
 ## 🛠️ Tech Stack
 
-| Category             | Tools               |
+| Layer                | Technologies        |
 | -------------------- | ------------------- |
 | **Language**         | Python 3            |
 | **Environment**      | Jupyter Notebook    |
