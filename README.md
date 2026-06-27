@@ -91,19 +91,29 @@ Log-transforms and normalizes the RFM data, uses the **Elbow Method** to find th
 
 ## ⚙️ Getting Started
 
+### 1. Clone the repository
+
 ```bash
-# 1. Clone the repository
 git clone https://github.com/HarshTanwar1/Cohort_Analysis.git
 cd Cohort_Analysis
+```
 
-# 2. (Recommended) Create and activate a virtual environment
+### 2. Create and activate a virtual environment _(recommended)_
+
+```bash
 python3 -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
+```
 
-# 3. Install dependencies
+### 3. Install the dependencies
+
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
 
-# 4. Launch the notebook
+### 4. Launch the notebook
+
+```bash
 jupyter notebook Cohort_Analysis.ipynb
 ```
 
